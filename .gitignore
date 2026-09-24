@@ -1,0 +1,11 @@
+# Local working/source material
+misc/
+
+# Editor and temporary files
+*~
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

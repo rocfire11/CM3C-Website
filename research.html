@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Research | CM3C | University of Florida</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="uf-bar">
+    UNIVERSITY OF FLORIDA
+</div>
+
+<header>
+    <div class="header-inner">
+
+        <h1 class="center-name">
+            Center for Multiscale Modeling of Multiphase Combustion
+        </h1>
+
+        <p class="center-acronym">
+            CM3C
+        </p>
+
+    </div>
+</header>
+
+
+<nav aria-label="Main navigation">
+    <div class="nav-inner">
+        <a href="index.html">Overview</a>
+        <a href="research.html">Research</a>
+        <a href="people.html">People</a>
+        <a href="publications.html">Publications</a>
+        <a href="documents.html">Documents</a>
+        <a href="news.html">News</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+
+<main>
+
+<section class="intro">
+    <h2>Research</h2>
+
+    <p>
+        CM3C investigates the phase change and group combustion of dense
+        particle clouds under high-speed and detonation conditions.
+        These flows combine turbulence, multiphase interactions, shock
+        waves, reactive flow, phase change, and stiff chemical kinetics
+        across a wide range of spatial and temporal scales.
+    </p>
+
+    <p>
+        The Center combines particle-resolved, Euler-Lagrange, and
+        Euler-Euler simulations with experiments, physics-informed
+        machine learning, verification and validation, uncertainty
+        quantification, and exascale computing to develop predictive
+        models of these complex multiphase systems.
+    </p>
+</section>
+
+
+<section class="research-framework">
+
+    <h2>Multiscale Predictive Science</h2>
+
+    <figure class="research-figure">
+        <img
+            src="images/cm3c-multiscale-framework.png"
+            alt="CM3C multiscale modeling framework connecting the macroscale
+                 demonstration problem, microscale group combustion,
+                 mesoscale experiments, machine-learning scale bridging,
+                 and relay validation."
+        >
+
+        <figcaption>
+            CM3C multiscale strategy linking particle-scale physics,
+            mesoscale behavior, macroscale predictive simulations,
+            machine-learning scale bridging, and relay validation.
+        </figcaption>
+    </figure>
+
+</section>
+
+
+<section class="research-areas">
+
+    <h2>Research Areas</h2>
+
+    <div class="research-grid">
+
+        <div class="research-card">
+            <h3>Microscale Group Combustion</h3>
+            <p>
+                Particle-resolved simulations investigate collective
+                combustion, reacting wakes, oxidizer depletion,
+                particle-gas interactions, and particle-particle
+                effects within dense reactive clouds.
+            </p>
+        </div>
+
+        <div class="research-card">
+            <h3>Mesoscale Physics</h3>
+            <p>
+                Simulations and experiments investigate instability-driven
+                particle clustering, shock-particle interactions, and the
+                emergence of mesoscale structures that influence
+                combustion and dispersal.
+            </p>
+        </div>
+
+        <div class="research-card">
+            <h3>Macroscale Predictive Simulation</h3>
+            <p>
+                Euler-Lagrange and Euler-Euler models incorporate
+                microscale-informed closure models to predict explosive
+                dispersal and combustion of dense particle clouds.
+            </p>
+        </div>
+
+        <div class="research-card">
+            <h3>Machine Learning &amp; Scale Bridging</h3>
+            <p>
+                Physics-informed generative and operator-learning models
+                transfer information from high-fidelity simulations into
+                closure models suitable for larger-scale predictive
+                calculations.
+            </p>
+        </div>
+
+        <div class="research-card">
+            <h3>Verification, Validation &amp; UQ</h3>
+            <p>
+                Relay validation connects experiments and simulations
+                across scales, while uncertainty quantification identifies
+                important uncertainty sources and guides model improvement.
+            </p>
+        </div>
+
+        <div class="research-card">
+            <h3>Exascale Computing</h3>
+            <p>
+                CM3C develops scalable algorithms, GPU-accelerated
+                simulation methods, dynamic load balancing, and workflows
+                for predictive multiphase calculations on exascale systems.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="technical-merit">
+
+    <h2>Scientific and Technical Merit</h2>
+
+    <h3>Overarching Vision and Integrated Problem</h3>
+
+    <p>
+        The group combustion of a cloud of particles in a high-speed
+        environment is a formidable problem, as it combines turbulence,
+        multiphase flow, shock waves, and reactive flow physics. The wide
+        range of scales, phase changes, and stiff chemical reactions make
+        direct numerical simulations (DNS) of combustion of even an isolated
+        particle in a high-speed environment a problem worthy of exascale
+        computation.
+    </p>
+
+    <p>
+        The collective burning of a cloud of particles cannot be approached
+        as a superposition of individual burning processes. Particle-gas
+        interactions at the mesoscale through preferential fingering,
+        particle-gas-particle interactions at the microscale in the form of
+        localized oxidizer depletion in reacting wakes, and close-range
+        particle-particle interactions through collisions render the problem
+        far more complex, and multiscale methods are required for efficient
+        use of exascale facilities.
+    </p>
+
+    <p>
+        CM3C is developing a hierarchical scale-bridging approach for
+        high-fidelity closure models by providing proper context to the
+        bottom-up approach currently employed in complex multiscale
+        multiphase problems. Instead of building closure models based only
+        on the canonical configuration of an isolated burning particle,
+        coarse-grained models are informed by a complete statistical
+        description of possible group-combustion configurations.
+    </p>
+
+    <p>
+        To achieve this goal, CM3C leverages advancements in artificial
+        intelligence by melding scientific computing with machine learning
+        at multiple scales. The Center advances a co-design strategy that
+        combines particle-resolved (PR), Euler-Lagrange (EL), and
+        Euler-Euler (EE) simulations of high-speed combustion of dense
+        particle clouds with physics-informed generative and
+        operator-learning models.
+    </p>
+
+    <div class="vision-list">
+
+        <div class="vision-item">
+            <h4>Exascale-enabled Discovery of Complex Physics</h4>
+            <p>
+                The complex nature of group combustion under high-speed and
+                detonation conditions makes controlled experiments with
+                diagnostics challenging. Fully validated coarse-grained
+                exascale simulations provide a pathway toward fundamental
+                advances beyond current empiricism.
+            </p>
+        </div>
+
+        <div class="vision-item">
+            <h4>Scale-bridging with Physics-informed ML</h4>
+            <p>
+                CM3C is developing a Lagrangian-based multiscale modeling
+                approach aimed at rigorous, best-possible closure models of
+                group combustion. Generative neural-network models provide
+                surrogate data approaching high-fidelity exascale simulation
+                accuracy, while operator-learning networks are used to learn
+                large-parametric closures.
+            </p>
+        </div>
+
+        <div class="vision-item">
+            <h4>UB-driven Simulation Roadmap</h4>
+            <p>
+                Relay validation quantifies uncertainties in macroscale
+                Euler-Lagrange simulations through companion micro- and
+                mesoscale simulation and experimental campaigns. Uncertainty
+                budgets rank the sources of uncertainty and guide subsequent
+                simulations and experiments for uncertainty reduction and
+                model improvement.
+            </p>
+        </div>
+
+        <div class="vision-item">
+            <h4>Dynamic Load Balancing for Exascale Performance</h4>
+            <p>
+                Particle-resolved, Euler-Lagrange, and Euler-Euler
+                simulations use the exascale Multicomponent Flow Code (MFC).
+                CM3C is advancing bin-based load balancing and trace-based
+                workload prediction for exascale multiphase simulations.
+            </p>
+        </div>
+
+    </div>
+
+    <h3 class="demonstration-heading">Demonstration Problem</h3>
+
+    <figure class="demonstration-figure">
+        <div class="demonstration-images">
+
+            <div>
+                <img src="images/Fig_Macro_Init.png"
+                     alt="Initial CM3C demonstration problem showing a hemispherical high-explosive charge surrounded by a mound of reactive particles.">
+                <p class="figure-panel-label">(a) Initial configuration</p>
+            </div>
+
+            <div>
+                <img src="images/Fig_Macro_Later.png"
+                     alt="Later stage of the CM3C demonstration problem showing shocked, dispersed, and burning reactive particles.">
+                <p class="figure-panel-label">(b) Particle dispersal and combustion</p>
+            </div>
+
+        </div>
+
+        <figcaption>
+            CM3C demonstration problem. A hemispherical high-explosive charge
+            is surrounded by reactive particles. Detonation shocks, heats,
+            accelerates, and disperses the particles, producing a complex
+            reacting multiphase flow.
+        </figcaption>
+    </figure>
+
+
+    <p>
+        The CM3C demonstration problem consists of a high-explosive
+        hemispherical charge surrounded by reactive carbon or magnesium
+        particles. Detonation of the high explosive rapidly shocks, heats,
+        and accelerates the particles. As the particulate front expands
+        radially, it undergoes complex instabilities and reactions. Molten
+        magnesium burns within vapor diffusion flames, while carbon undergoes
+        heterogeneous surface and gas-phase reactions. Carbon and magnesium
+        therefore represent two distinct particle-burning regimes.
+    </p>
+
+    <p>
+        Predicting reactive particle-gas and particle-gas-particle
+        interactions across the broad range of scales within the expanding
+        post-detonation flow poses an immense computational challenge.
+        Meeting this challenge is a central goal of CM3C.
+    </p>
+
+    <p>
+        Integrated simulations of the demonstration problem are performed
+        using MFC. Increasing computational resources and improved modeling
+        fidelity enable progressively more detailed simulations, while relay
+        validation and propagation of modeling errors and uncertainties
+        quantify uncertainty in the prediction metrics. Uncertainty budgets
+        identify the modeling and numerical weaknesses that contribute most
+        strongly to predictive uncertainty and guide subsequent improvements
+        to machine-learning models and numerical methods.
+    </p>
+
+</section>
+
+
+
+<section class="predictive-science">
+
+    <h2>Predictive Science Plan</h2>
+
+    <p>
+        CM3C seeks predictive simulation capabilities for phase change and
+        combustion of dense particle clouds in high-speed environments.
+        These flows combine compressible-flow phenomena, rapid thermal
+        transients, reacting particle wakes, turbulence, evolving particle
+        distributions, and heterogeneous and gas-phase chemical reactions
+        over a broad range of spatial and temporal scales. Predictive models
+        must capture not only the behavior of individual burning particles,
+        but also the collective dynamics that emerge within dense particle
+        clouds.
+    </p>
+
+    <p>
+        Following detonation, an intense shock propagates through the
+        surrounding particles before emerging as a strong air blast. The
+        particles accelerate outward and disperse while complex shock heating
+        and mixing produce ignition and combustion. Initially large
+        particle-gas relative velocities generate interacting shock
+        structures and strongly nonuniform thermal environments. As particle
+        concentration increases, interactions between neighboring reacting
+        wakes and flame envelopes become increasingly important, ultimately
+        producing collective group-combustion behavior that cannot be
+        represented as a simple superposition of isolated particles.
+    </p>
+
+    <figure class="predictive-figure">
+
+        <div class="predictive-images">
+
+            <div>
+                <img src="images/Prompt_Ignition.png"
+                     alt="Prompt ignition of a shock-dispersed reactive aluminum particle cloud showing particle fingering, shock propagation, and an expanding fireball.">
+                <p class="figure-panel-label">(a) Prompt ignition</p>
+            </div>
+
+            <div>
+                <img src="images/Delayed_Ignition.png"
+                     alt="Delayed ignition of a shock-dispersed reactive aluminum particle cloud showing particle fingering, shock reflections, ignition kernels, and a turbulent aluminum dust flame.">
+                <p class="figure-panel-label">(b) Delayed ignition</p>
+            </div>
+
+        </div>
+
+        <figcaption>
+            Prompt and delayed ignition regimes in shock-dispersed reactive
+            particle clouds. The simulations illustrate the evolution from
+            shock-driven particle dispersal and fingering through ignition
+            and development of a turbulent particle-cloud flame.
+        </figcaption>
+
+    </figure>
+
+    <p>
+        CM3C addresses this multiscale problem using particle-resolved
+        simulations to reveal the underlying microscale physics, together
+        with Euler-Lagrange and Euler-Euler descriptions for progressively
+        larger scales. High-fidelity simulations, experiments, and
+        physics-informed machine learning are used together to develop
+        closure models that retain the important effects of particle
+        clustering, reacting wakes, shock interactions, and collective
+        combustion while remaining computationally practical for large-scale
+        predictive calculations.
+    </p>
+
+</section>
+
+
+
+<section class="vvuq-plan">
+
+    <h2>Verification, Validation &amp; Uncertainty Quantification</h2>
+
+    <p>
+        Verification, validation, and uncertainty quantification (VVUQ)
+        provide the framework for assessing the predictive capability of
+        CM3C simulations across the micro-, meso-, and macroscales. Rather
+        than relying only on direct validation of the full demonstration
+        problem, CM3C employs relay validation, in which carefully designed
+        experiments and high-fidelity simulations interrogate important
+        physical processes and model components at intermediate scales.
+    </p>
+
+    <p>
+        Modeling, numerical, parametric, and experimental uncertainties are
+        propagated through the multiscale framework to construct an
+        uncertainty budget for the macroscale prediction quantities. The
+        uncertainty budget identifies and ranks the dominant sources of
+        predictive uncertainty, providing a quantitative basis for selecting
+        subsequent simulations, experiments, and model improvements. In this
+        way, VVUQ is integrated directly into the Center's research strategy
+        rather than applied only as a final assessment.
+    </p>
+
+</section>
+
+
+<section class="exascale-plan">
+
+    <h2>Exascale Computing</h2>
+
+    <p>
+        The enormous range of spatial and temporal scales in reactive
+        particle-cloud flows requires computational capabilities extending
+        from particle-resolved calculations to macroscale simulations
+        containing very large numbers of computational cells and Lagrangian
+        particles. CM3C uses the open-source
+        <a href="https://mflowcode.github.io/"
+           target="_blank"
+           rel="noopener noreferrer">Multicomponent Flow Code (MFC)</a>
+        as the principal simulation platform for particle-resolved,
+        Euler-Lagrange, and Euler-Euler calculations. MFC provides a common
+        high-performance framework in which new multiphase physics,
+        chemistry, numerical methods, and scale-bridging models developed by
+        CM3C can be integrated.
+    </p>
+
+    <p>
+        Efficient use of exascale systems also requires addressing the
+        strongly heterogeneous and time-dependent computational workload
+        created by dispersed particle clouds. CM3C is developing dynamic
+        load-balancing strategies and trace-based particle-workload
+        prediction methods that use inexpensive lower-fidelity simulations
+        to anticipate particle distributions and computational cost.
+        Combined with asynchronous CPU-GPU execution and adaptive domain
+        decomposition, these methods are designed to maintain efficient
+        utilization as particle clouds disperse, cluster, collide, and
+        react.
+    </p>
+
+</section>
+
+
+
+<section class="ai-ml-plan">
+
+    <h2>Artificial Intelligence &amp; Machine Learning</h2>
+
+    <p>
+        Machine learning provides the central scale-bridging capability in
+        the CM3C multiscale framework. High-fidelity particle-resolved
+        simulations can reveal the detailed physics of group combustion,
+        but only a limited number of these expensive calculations can be
+        performed. Directly constructing closure models from this limited
+        database would therefore explore only a small fraction of the
+        parameter space relevant to dense, reacting particle clouds.
+    </p>
+
+    <p>
+        CM3C addresses this limitation with a two-stage machine-learning
+        strategy. Generative machine-learning models (GMLMs) first learn
+        the microscale flow physics from high-fidelity particle-resolved
+        simulations and generate a much larger database of surrogate
+        microscale solutions. Operator-learning machine-learning models
+        (OMLMs) then use both the high-fidelity and surrogate data to learn
+        closure relations for coarse-grained simulations. This approach
+        combines scientific computing and machine learning to transfer
+        information systematically from particle-resolved simulations to
+        predictive Euler-Lagrange models.
+    </p>
+
+
+    <h3>Generative ML Models</h3>
+
+    <p>
+        The GMLM is trained to reproduce the local, time-dependent
+        microscale flow surrounding particles and their neighbors. By
+        formulating the prediction from the perspective of individual
+        particles or local neighborhoods, each high-fidelity simulation
+        provides many training examples. Physics can also be incorporated
+        directly into the learning process by using the governing equations
+        to constrain the model in addition to supervised training data.
+    </p>
+
+    <p>
+        Once trained, the generative model can explore particle
+        configurations and physical parameters at a small fraction of the
+        cost of additional particle-resolved simulations. The resulting
+        synthetic flow fields retain detailed microscale information and
+        provide the much larger database needed for subsequent closure
+        learning.
+    </p>
+
+    <figure class="ml-figure ml-figure-wide">
+        <img src="images/GAN-Joel.png"
+             alt="Generative machine-learning approaches comparing a particle-resolved DNS flow field with a GAN-generated surrogate and illustrating physics-guided learning of local dynamics.">
+
+        <figcaption>
+            Generative machine-learning strategies for microscale surrogate
+            modeling. High-fidelity particle-resolved simulations provide
+            training information from which generative models learn local
+            flow or microstructural dynamics and rapidly produce additional
+            high-resolution surrogate data.
+        </figcaption>
+    </figure>
+
+
+    <h3>Operator-learning ML Models</h3>
+
+    <p>
+        The second stage seeks the closure relations required by
+        coarse-grained Euler-Lagrange simulations. Operator-learning models
+        are trained using information from both the original high-fidelity
+        simulations and the much larger GMLM-generated surrogate database.
+        The goal is not to reproduce the complete microscale flow during a
+        macroscale calculation, but to extract compact models for the
+        unresolved particle-gas interactions that influence the resolved
+        dynamics.
+    </p>
+
+    <p>
+        Graph-based architectures provide a natural representation of
+        particle interactions: a reference particle and its neighbors form
+        a local interaction network whose geometry, particle states, and
+        flow information determine the required closure quantities.
+        Successive graph-convolution layers communicate information among
+        neighboring particles, allowing the learned closure to represent
+        many-particle effects that cannot be captured by an isolated-particle
+        model.
+    </p>
+
+    <figure class="ml-figure ml-figure-medium">
+        <img src="images/binary-GCN-layers.png"
+             alt="Multilayer graph convolutional network architecture for learning closure quantities from interactions between reference particles and neighboring particles.">
+
+        <figcaption>
+            Representative graph-convolutional architecture for
+            operator-learning closure models. Information from neighboring
+            particles is propagated through successive network layers to
+            predict closure quantities for the reference particles.
+        </figcaption>
+    </figure>
+
+</section>
+
+
+<section class="ml-integration">
+
+    <h2>Integration of Exascale Simulations and ML Models</h2>
+
+    <p>
+        The complete CM3C scale-bridging strategy integrates exascale
+        scientific computing and machine learning in a single predictive
+        workflow. High-fidelity particle-resolved simulations with MFC first
+        resolve the detailed group-combustion physics for approximately
+        one thousand particles. The resulting flow fields are processed into
+        local, time-resolved training data describing individual particles,
+        their neighborhoods, and the surrounding gas.
+    </p>
+
+    <p>
+        These data train the GMLM, which is then deployed to generate orders
+        of magnitude more synthetic microscale data over the parameter space
+        of interest. The combined high-fidelity and surrogate databases are
+        subsequently used to train the OMLM and obtain computationally
+        lightweight, best-possible closure models. These closures are
+        embedded within large-scale Euler-Lagrange simulations performed
+        with MFC, allowing microscale information to influence calculations
+        involving vastly larger particle populations.
+    </p>
+
+    <p>
+        The resulting macroscale predictions are compared with demonstration
+        experiments using both basic and higher-order quantities of interest.
+        Validation and uncertainty quantification provide feedback to the
+        high-fidelity simulations, training data, and machine-learning
+        models, closing the loop between microscale discovery, scale
+        bridging, and predictive simulation.
+    </p>
+
+    <figure class="ml-figure ml-workflow-figure">
+        <img src="images/six-steps.png"
+             alt="Six-step CM3C workflow connecting high-fidelity particle-resolved MFC simulations, extracted training data, generative machine learning, surrogate data, operator learning, Euler-Lagrange MFC simulations, and experimental validation.">
+
+        <figcaption>
+            Integration of exascale simulations and machine-learning models.
+            High-fidelity particle-resolved MFC simulations provide training
+            data for generative models, which greatly expand the microscale
+            database. Operator-learning models convert this information into
+            closures for large-scale Euler-Lagrange MFC simulations, followed
+            by validation against the demonstration experiment.
+        </figcaption>
+    </figure>
+
+</section>
+
+
+
+<section class="further-information">
+
+    <h2>Further Information</h2>
+
+    <p>
+        A more detailed description of the CM3C scientific and technical
+        program is available in the Center's PSAAP-IV Technical Proposal.
+    </p>
+
+    <p>
+        <a href="documents/proposal/CM3C_PSAAP4_Proposal.pdf">
+            View the CM3C PSAAP-IV Technical Proposal
+        </a>
+        <span class="proposal-size">1.2 MB</span>
+    </p>
+
+</section>
+
+</main>
+
+<footer>
+    <div class="footer-inner">
+        <p>
+            <strong>
+                Center for Multiscale Modeling of Multiphase Combustion
+            </strong><br>
+            University of Florida
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>
