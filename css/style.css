@@ -737,3 +737,22 @@ footer p {
     color: #666;
     font-size: 0.88rem;
 }
+
+/* ---------- Back to top ---------- */
+
+.back-to-top {
+    margin-top: 4rem;
+    text-align: right;
+}
+
+.back-to-top a {
+    color: var(--uf-blue);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.back-to-top a:hover,
+.back-to-top a:focus {
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+}
